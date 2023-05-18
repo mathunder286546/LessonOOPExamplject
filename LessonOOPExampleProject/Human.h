@@ -2,7 +2,7 @@
 #include "main.h"
 
 
-class Student {
+class Human {
 private:
 	
 

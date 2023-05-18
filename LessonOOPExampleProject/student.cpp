@@ -1,5 +1,6 @@
 #include "student.h"
 
+
 int Student::count = 0;
 
 int Student::getCount() {
@@ -7,7 +8,7 @@ int Student::getCount() {
 }
 
 // default constructor
-Student::Student() {
+Student::Student() : Human() {
 	count++;
 	avg_mark = 4;
 }
