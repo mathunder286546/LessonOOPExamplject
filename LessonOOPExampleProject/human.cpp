@@ -13,9 +13,9 @@ Human::Human() {
 Human::Human(string nm, string surnm, int a ) {
 	
 	//cout << "constructor with arguments" << endl;
-	name = nm;
-	surname = surnm;
-	age = a;
+	this -> name = nm;
+	this->surname = surnm;
+	this->age = a;
 	
 }
 
